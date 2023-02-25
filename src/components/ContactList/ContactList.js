@@ -7,7 +7,7 @@ import { deleteContacts } from "../../redux/contacts/contacts-slice";
 import { getFilteredContacts } from "../../redux/contacts/contacts-selectors";
 
 
-const ContactList = ({ contacts, onDeleteContact }) => {
+const ContactList = () => {
 
 const filteredContacts = useSelector(getFilteredContacts);
 
